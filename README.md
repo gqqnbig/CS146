@@ -7,3 +7,5 @@
 **Prof. Kai-Wei Chang**
 
 All mistakes in homeworks were fixed and renamed to file 'hw*\_fixed.pdf'.
+
+https://uclanlp.github.io/CSM146-18W/overview
