@@ -6,6 +6,8 @@
  
 **Prof. Kai-Wei Chang**
 
+https://uclanlp.github.io/CSM146-18W/overview
+
 All mistakes in homeworks were fixed and renamed to file 'hw*\_fixed.pdf'.
 
-https://uclanlp.github.io/CSM146-18W/overview
+
