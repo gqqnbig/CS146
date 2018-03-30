@@ -1,0 +1,396 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.27)  30 JAN 2018 17:16
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/12502/OneDrive/Documents/CSM146/hw1/latex/hw1.tex
+(c:/Users/12502/OneDrive/Documents/CSM146/hw1/latex/hw1.tex
+LaTeX2e <2017-04-15>
+Babel <3.17> and hyphenation patterns for 84 language(s) loaded.
+(d:/Program Files/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(d:/Program Files/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(d:/Program Files/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks14
+\labelindent=\skip43
+\enit@outerparindent=\dimen103
+\enit@toks=\toks15
+\enit@inbox=\box26
+\enitdp@description=\count87
+)
+(d:/Program Files/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(d:/Program Files/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(d:/Program Files/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks17
+)
+(d:/Program Files/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(d:/Program Files/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(d:/Program Files/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(d:/Program Files/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(d:/Program Files/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
+
+(d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
+)
+(d:/Program Files/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(d:/Program Files/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(d:/Program Files/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(d:/Program Files/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+)
+\XKV@depth=\count91
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(d:/Program Files/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(d:/Program Files/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(d:/Program Files/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box27
+)
+\tc@llx=\dimen114
+\tc@lly=\dimen115
+\tc@urx=\dimen116
+\tc@ury=\dimen117
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(d:/Program Files/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen118
+\adjbox@Height=\dimen119
+\adjbox@Depth=\dimen120
+\adjbox@Totalheight=\dimen121
+
+(d:/Program Files/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count92
+)
+(d:/Program Files/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box28
+\sift@deathcycles=\count93
+\@vwid@loff=\dimen122
+\@vwid@roff=\dimen123
+))
+(./hw1.aux)
+\openout1 = `hw1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(d:/Program Files/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count94
+\scratchdimen=\dimen124
+\scratchbox=\box29
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen125
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
+\everyMPtoPDFconversion=\toks21
+) (d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(d:/Program Files/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+
+[1
+
+{d:/Program Files/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 19.
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+
+ []
+
+
+Overfull \hbox (38.51865pt too wide) detected at line 45
+\OML/cmm/m/it/10.95 H [] \OT1/cmr/m/n/10.95 = [] [] = [] [] = [] \OMS/cmsy/m/n/
+10.95 ^^C \OML/cmm/m/it/10.95 B [] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 B [
+]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+
+ []
+
+<3aGraph.pdf, id=9, 433.62pt x 289.08pt>
+File: 3aGraph.pdf Graphic file (type pdf)
+<use 3aGraph.pdf>
+Package pdftex.def Info: 3aGraph.pdf  used on input line 54.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+[2] [3 <./3aGraph.pdf>]
+<3cGraph.pdf, id=30, 433.62pt x 289.08pt>
+File: 3cGraph.pdf Graphic file (type pdf)
+<use 3cGraph.pdf>
+Package pdftex.def Info: 3cGraph.pdf  used on input line 82.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ [4 <./3cGraph.pdf>]
+<download.png, id=51, 393.47pt x 266.9975pt>
+File: download.png Graphic file (type png)
+<use download.png>
+Package pdftex.def Info: download.png  used on input line 110.
+(pdftex.def)             Requested size: 140.92793pt x 95.62605pt.
+<download (1).png, id=53, 393.47pt x 266.9975pt>
+File: download (1).png Graphic file (type png)
+<use download (1).png>
+Package pdftex.def Info: download (1).png  used on input line 111.
+(pdftex.def)             Requested size: 140.92793pt x 95.62605pt.
+<download (2).png, id=54, 393.47pt x 266.9975pt>
+File: download (2).png Graphic file (type png)
+<use download (2).png>
+Package pdftex.def Info: download (2).png  used on input line 112.
+(pdftex.def)             Requested size: 140.92793pt x 95.62605pt.
+<download (3).png, id=55, 393.47pt x 266.9975pt>
+File: download (3).png Graphic file (type png)
+<use download (3).png>
+Package pdftex.def Info: download (3).png  used on input line 113.
+(pdftex.def)             Requested size: 140.92793pt x 95.62605pt.
+<download (4).png, id=56, 393.47pt x 266.9975pt>
+File: download (4).png Graphic file (type png)
+<use download (4).png>
+Package pdftex.def Info: download (4).png  used on input line 114.
+(pdftex.def)             Requested size: 140.92793pt x 95.62605pt.
+<download (5).png, id=57, 393.47pt x 266.9975pt>
+File: download (5).png Graphic file (type png)
+<use download (5).png>
+Package pdftex.def Info: download (5).png  used on input line 115.
+(pdftex.def)             Requested size: 140.92793pt x 95.62605pt.
+<download (6).png, id=58, 393.47pt x 266.9975pt>
+File: download (6).png Graphic file (type png)
+<use download (6).png>
+Package pdftex.def Info: download (6).png  used on input line 116.
+(pdftex.def)             Requested size: 140.92793pt x 95.62605pt.
+ [5 <./download.png> <./download (1).png> <./download (2).png> <./download (3).
+png> <./download (4).png> <./download (5).png> <./download (6).png>] [6]
+<4fGraph.pdf, id=72, 433.62pt x 289.08pt>
+File: 4fGraph.pdf Graphic file (type pdf)
+<use 4fGraph.pdf>
+Package pdftex.def Info: 4fGraph.pdf  used on input line 168.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ [7 <./4fGraph.pdf>]
+<4gGraph.pdf, id=107, 433.62pt x 289.08pt>
+File: 4gGraph.pdf Graphic file (type pdf)
+<use 4gGraph.pdf>
+Package pdftex.def Info: 4gGraph.pdf  used on input line 174.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ [8 <./4gGraph.pdf>]
+<4hGraph.pdf, id=141, 433.62pt x 289.08pt>
+File: 4hGraph.pdf Graphic file (type pdf)
+<use 4hGraph.pdf>
+Package pdftex.def Info: 4hGraph.pdf  used on input line 180.
+(pdftex.def)             Requested size: 307.14749pt x 204.77625pt.
+<4hGraph2.pdf, id=142, 433.62pt x 289.08pt>
+File: 4hGraph2.pdf Graphic file (type pdf)
+<use 4hGraph2.pdf>
+Package pdftex.def Info: 4hGraph2.pdf  used on input line 181.
+(pdftex.def)             Requested size: 307.14749pt x 204.77625pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--182
+
+ []
+
+[9 <./4hGraph.pdf> <./4hGraph2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./4hGraph2.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+>] (./hw1.aux) ) 
+Here is how much of TeX's memory you used:
+ 3049 strings out of 492980
+ 47393 string characters out of 6132011
+ 117827 words of memory out of 5000000
+ 6573 multiletter control sequences out of 15000+600000
+ 8364 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,6n,37p,1196b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+<d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb><d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmex10.pfb><d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb><d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb><d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr12.pfb><d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr17.pfb><d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb><d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+t10.pfb>
+Output written on hw1.pdf (9 pages, 235996 bytes).
+PDF statistics:
+ 256 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+

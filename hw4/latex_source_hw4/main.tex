@@ -1,0 +1,255 @@
+\documentclass[11pt]{article}
+\usepackage{course}
+
+\begin{document}
+
+\ctitle{4}{Boosting, Multi-class Classification}{March 8, 2018, 11:59pm}
+\author{}
+\date{}
+\maketitle
+\vspace{-0.75in}
+
+\vspace{-11pt}
+% \blfootnote{Parts of this assignment are adapted from course material by Jenna Wiens (UMich) and Tommi Jaakola (MIT).}
+
+\ifsoln
+\else
+\section*{Submission instructions}
+\begin{itemize}
+\item 
+Submit your solutions electronically on the course Gradescope site as PDF files.
+\item If you plan to typeset your solutions, please use the LaTeX solution template. If you must submit scanned handwritten solutions, please use a black pen on blank white paper and a high-quality scanner app.
+
+\end{itemize}
+\fi
+
+
+\section {Boosting - 40 points}
+  Consider the following examples $(x,y) \in \mathbb{R}^2$ ({\em i} is the example index):
+  \begin{center}
+    \begin{tabular}{|c|c|c|c|}
+      \hline
+      {\em i}  & $x$  & $y$ & Label \\
+      \hline
+      {\em 1}  & 0  & 8 & $-$ \\
+      \hline
+      {\em 2}  & 1  & 4 & $-$ \\
+      \hline
+      {\em 3}  & 3  & 7 & $+$ \\
+      \hline
+      {\em 4}  & -2  & 1 & $-$ \\
+      \hline
+      {\em 5}  & -1  & 13 & $-$ \\
+      \hline
+      {\em 6}  & 9  & 11 & $-$ \\
+      \hline
+      {\em 7}  & 12 & 7 & $+$ \\
+      \hline
+      {\em 8}  & -7  & -1 & $-$ \\
+      \hline
+      {\em 9}  & -3  & 12 & $+$ \\
+      \hline
+      {\em 10} & 5  & 9 & $+$ \\
+      \hline
+    \end{tabular}
+  \end{center}
+    % {\bf Add indices to the rows of both tables?}
+
+    \begin{table}[!t]
+      {\centering
+        \begin{tabular}{|c|c||c|c|c|c||c|c|c|c|}
+
+          \hline
+          & & \multicolumn{4}{c||}{Hypothesis 1 (1st iteration)}
+	  & \multicolumn{4}{c|}{Hypothesis 2 (2nd iteration)} \\
+          \cline{3-10}
+          {\em i} & Label & $D_0$ & $f_1 \equiv $ & $f_2 \equiv $ & $h_1\equiv$ & $D_1$ &  $f_1 \equiv $ & $f_2 \equiv $ & $h_2 \equiv $ \\
+          & & & [$x > 2$] & [$y > 6$] & [$x > 2$] & & [$x > 10$] & [$y > 11$] & [$y > 11$] \\
+
+          \tiny{(1)} & \tiny{(2)} & \tiny{(3)} & \tiny{(4)} &  \tiny{(5)} & \tiny{(6)} & \tiny{(7)} & \tiny{(8)} & \tiny{(9)} & \tiny{(10)}\\
+          \hline \hline
+          {\em 1} & $-$ & 0.1 & $-$ & $+$ & $-$ & $\frac{1}{16}$ & $-$ & $-$ & $-$ \\
+          \hline
+          {\em 2} & $-$ & 0.1 & $-$ & $-$ & $-$ & $\frac{1}{16}$ & $-$ & $-$ & $-$ \\
+          \hline
+          {\em 3} & $+$ & 0.1 & $+$ & $+$ & $+$ & $\frac{1}{16}$ & $-$ & $-$ & $-$ \\
+          \hline
+          {\em 4} & $-$ & 0.1 & $-$ & $-$ & $-$ & $\frac{1}{16}$ & $-$ & $-$ & $-$ \\
+          \hline
+          {\em 5} & $-$ & 0.1 & $-$ & $+$ & $-$ & $\frac{1}{16}$ & $-$ & $+$ & $+$ \\
+          \hline
+          {\em 6} & $-$ & 0.1 & $+$ & $+$ & $+$ & $\frac{1}{4}$ & $-$ & $-$ & $-$ \\
+          \hline
+          {\em 7} & $+$ & 0.1 & $+$ & $+$ & $+$ & $\frac{1}{16}$ & $+$ & $-$ & $-$ \\
+          \hline
+          {\em 8} & $-$ & 0.1 & $-$ & $-$ & $-$ & $\frac{1}{16}$ & $-$ & $-$ & $-$ \\
+          \hline
+          {\em 9} & $+$ & 0.1 & $-$ & $+$ & $-$ & $\frac{1}{4}$ & $-$ & $+$ & $+$ \\
+          \hline
+          {\em 10} & $+$ & 0.1 & $+$ & $+$ & $+$ & $\frac{1}{16}$ & $-$ & $-$ & $-$ \\
+          \hline
+        \end{tabular}
+        \caption{Table for Boosting results}\label{table:ltu}}
+    \end{table}
+
+
+  In this problem, you will use Boosting to learn a hidden Boolean function from this set of examples.
+We will use two rounds of AdaBoost to learn a hypothesis for this
+    data set. In each round, AdaBoost chooses a weak learner that minimizes the error $\epsilon$. As weak learners, use hypotheses of the form (a)~$f_1 \equiv [x
+    > \theta_x]$ or (b)~$f_2 \equiv [y > \theta_y]$, for some integers $\theta_x, \theta_y$ (either one of the two forms, not a disjunction of the two). There should be no need to try many values of $\theta_x, \theta_y$;
+    appropriate values should be clear from the data. When using log, use base 2. 
+
+
+  \begin{enumerate}
+  \item {\bf [10 points]}  Start the first round with a uniform distribution $D_0$.  Place the value for $D_0$ for each example in the third column of Table~\ref{table:ltu}. Write the new representation of the data in terms of the {\em rules of thumb}, $f_1$ and $f_2$, in the fourth and fifth columns of Table~\ref{table:ltu}.
+
+  
+
+  \item {\bf [10 points]}
+    Find the hypothesis given by the weak learner that minimizes the error
+    $\epsilon$ for that distribution.  Place this hypothesis as the heading to the
+    sixth column of Table~\ref{table:ltu}, and give its prediction for each example in that column.
+
+  \item {\bf [10 points]} Now compute $D_1$ for each example, find the new best weak learners $f_1$ and $f_2$, and select hypothesis that minimizes error on this distribution, placing these values and predictions in the seventh to tenth columns of Table~\ref{table:ltu}.
+  
+  $$\alpha_0 = \frac{1}{2}\log_2{\left(\frac{1-\epsilon_0}{\epsilon_0}\right)} = \frac{1}{2}\log_2{\left(\frac{1-\frac{2}{10}}{\frac{2}{10}}\right)} = \frac{1}{2}\log_2{4} = 1$$
+  $$\sum_i{D_1(i)} = \sum_i{\frac{D_0(i)}{Z_0}\;2^{-\alpha_0y_ih_t(x_i)}} = \frac{\frac{1}{10}(2^{-1}\times8 + 2\times2)}{Z_0} = 1$$
+  $$\text{Hence,}\quad Z_0 = \frac{4}{5}\quad \text{and}\quad D_1(i) = \frac{1}{8}\times2^{-y_ih_t(x_i)}$$
+
+
+  \item {\bf [10 points]} Write down the final hypothesis produced by AdaBoost.
+  $$\epsilon_1 = 4\times\frac{1}{16} = \frac{1}{4}$$
+  $$\alpha_1 = \frac{1}{2} \times \log_2{\left(\frac{1-\frac{1}{4}}{\frac{1}{4}}\right)} = \frac{1}{2}\log_2{3}$$
+  $$H_{final}(x) = \text{sgn}\left(h_1(x) + \left(\frac{1}{2}\log_2{3}\right)h_2(x)\right)$$
+
+\end{enumerate}
+
+\textbf{What to submit:} Fill out Table~\ref{table:ltu} as explained, show computation of $\alpha$ and $D_1(i)$, and give the final hypothesis, $H_{\textit{final}}$.
+
+
+
+\iffalse
+\section{AdaBoost \problemworth{30}}
+
+In the lecture on ensemble methods, we said that in iteration $t$, AdaBoost is picking $(h_t, \beta_t)$ that minimizes the objective:
+\begin{eqnarray*}
+(h_t^*(\vect{x}), \beta_t^*) & = & \argmin_{(h_t(\vect{x}), \beta_t)}\sum_n w_t(n) e^{-y_n \beta_t h_t(\vect{x}_n)} \\ 
+& =& \argmin_{(h_t(\vect{x}), \beta_t)}(e^{\beta_t}- e^{-\beta_t})  \sum_n w_t(n)\mathbb{I}[y_n \ne h_t(\vect{x}_n)] \\
+&& \qquad\qquad\qquad\qquad\qquad + e^{-\beta_t} \sum_n w_t(n)
+\end{eqnarray*}
+We define the weighted misclassification error at time t, $\epsilon_t$ to be $\epsilon_t = \sum_n w_t(n)\mathbb{I}[y_n \ne h_t(\vect{x}_n)]$. Also the weights are normalized so that $\sum_n w_t(n)=1$. 
+
+\begin{enumerate}
+\item \itemworth{3}
+Take the derivative of the above objective function with respect to $\beta_t$ and set it to zero to solve for $\beta_t$ and obtain the update for $\beta_t$.
+
+\solution{
+\begin{eqnarray*}
+J(\beta) & =& (e^{\beta_t}- e^{-\beta_t})  \epsilon_t  + e^{-\beta_t} 
+\end{eqnarray*}
+\begin{eqnarray*}
+\frac{\partial J(\beta_t)}{\partial \beta_t} & =& (e^{\beta_t}+ e^{-\beta_t})  \epsilon_t  - e^{-\beta_t} \\
+&=& 0 
+\end{eqnarray*}
+Solving gives:
+\begin{eqnarray*}
+e^{2\beta_t}+ 1  &=& \frac{1}{\epsilon_t} \\
+e^{2\beta_t}  &=& \frac{1-\epsilon_t}{\epsilon_t} \\
+\beta_t  &=& \frac{1}{2} \log\left(\frac{1-\epsilon_t}{\epsilon_t}\right)
+\end{eqnarray*}
+
+%[2pt for computing the derivative correctly; 1 pt for answer]
+}
+
+\item \itemworth{2} Suppose the training set is linearly separable, and we use a hard-margin linear support vector machine (no slack) as a base classifier. In the first boosting iteration, what would the resulting $\beta_1$ be?
+
+\solution{
+The value of $\beta_1$ is infinite. Increasing $\beta_1$ will decrease all the training losses since $y_n h(\vect{x}_n) > 0$ for all $n$.
+
+That is, if the training set is linearly separable and we use a hard-margin SVM with no slack as a base classifier, then a single classifier is sufficient for the ensemble classifier. Thus, in stage $t=1$, $h(\vect{x})$ will correspond to a linear decision boundary that correctly classifies all points ($\epsilon_1 = 0$) so that $\beta_1 = \infty$.
+
+%[1 pt for recognizing single base classifier perfectly separates training set; 1 pt for recognizing $\beta_1 = \infty$]
+}
+\end{enumerate}
+\fi
+\section{Multi-class classification - 60 points}
+
+Consider a multi-class classification problem with $k$ class
+labels $\{1, 2, \ldots k\}$. Assume that we are given $m$
+examples, labeled with one of the $k$ class labels. Assume, for
+simplicity, that we have $m/k$ examples of each type.
+
+Assume that you have a learning algorithm $L$ that can be used
+to learn Boolean functions. (E.g., think about $L$ as the
+Perceptron algorithm). We would like to explore several ways to
+develop learning algorithms for the multi-class classification
+problem.
+
+There are two schemes to use the algorithm $L$ on the given data set, and produce a multi-class classification:
+\begin{itemize}
+\item {\bf One vs.~All:} For every label $i \in [1,k]$, a classifier is learned over the following data set: the examples labeled with the label $i$ are considered ``positive'', and examples labeled with any other class $j \in [1,k], j \neq i$ are considered ``negative''.
+\item {\bf All vs.~All:} For every pair of labels $\langle i, j \rangle$, a classifier is learned over the following data set: the examples labeled with one class $i \in [1,k]$ are considered ``positive'', and those labeled with the other class $j \in [1,k], j \neq i$ are considered ``negative''.
+\end{itemize}
+%
+\vspace{-3mm}
+\begin{enumerate}
+\item {\bf [20 points]} For each of these two schemes, answer the following:
+\begin{enumerate}
+\item How many classifiers do you learn?
+
+One vs. All: $k$, \\times
+All vs. All: $\frac{k(k-1)}{2}.$
+\item How many examples do you use to learn each classifier within the scheme?
+
+One vs. All: $m$, \\
+All vs. All: $2m/k.$
+\item How will you decide the final class label (from \{1, 2, \ldots, k\}) for each example?
+
+One vs. All: $y^\text{test} = \argmax_{y_i \in [1, k]}{W_{y_i}^T X^{\text{test}}}$, which means that take the classifer with largest product of all the $k$ weight vectors and feature vector to be predicted. \\
+All vs. All: either by majority stategy, where label i wins on $X^{\text{test}}$ more often than any other labels, or by tournament, where start with $m/2$ pairs and continue with winners.
+\item What is the computational complexity of the training process?
+
+According to questions on Piazza, the computational complexity here is time complexity.\\
+One vs. All: $O\left(mk\right)$, \\
+All vs. All: $O\left(\frac{k(k-1)}{2}\times \frac{2m}{k}\right) = O\left(m(k-1)\right) = O\left(mk\right). $
+\end{enumerate}
+\item {\bf [5 points]} Based on your analysis above of two schemes individually, which scheme would you prefer? Justify.
+
+If the only critierion here is computational time complexity, both schemes are equivalent. If we consider the space complexity, then One vs. All is better.
+\item {\bf [5 points]} You could also use a \textsc{KernelPerceptron} for a two-class classification. We could also use the algorithm to learn a multi-class classification. Does using a \textsc{KernelPerceptron} change your analysis above? Specifically, what is the computational complexity of using a \textsc{KernelPerceptron} and which scheme would you prefer when using a \textsc{KernelPerceptron}? 
+
+In kernal perception, $y_j\left(\sum_{1...n}{\alpha_i y_i K(X_i, X_j)}\right)$ is computed for each iteration, where $n$ is number of examples and $\alpha_i$ is the count of examples as constituents in weight vector. As the algorithm proceeds, more $\alpha_i$ will be nonzero, so the computational complexity increases for 1 single classifier, which is bounded by $O\left(d + 2d + ...\:+ nd\right) = O(n^2 d)$, where $d$ is the dimension of feature vectors. For One vs. All, $n = m$; for All vs. All, $n = 2m/k$. Clearly, All vs. All has better computational time complexity of the overall training process.
+\item {\bf [10 points]} We are given a magical black-box binary classification algorithm (we don’t know how it works, but it just does!) which has a learning time complexity of O($dn^2$), where $n$ is the total number of training examples supplied (positive+negative) and $d$ is the dimensionality of each example.
+What are the overall training time complexities of the all-vs-all and the one-vs-all
+paradigms, respectively, and which training paradigm is most efficient?
+
+One vs. All: $O\left(dm^2k\right)$, \\
+All vs. All: $O\left(d\left(\frac{2m}{k}\right)^2 \times \frac{k(k-1)}{2}\right) = O(dm^2)$.\\
+Hence, as long as $k$ is not a constant, them All vs. All is better.
+\item {\bf [10 points]} We are now given another magical black-box binary classification algorithm (wow!) which has a learning time complexity of O($d^2 n$), where $n$ is the total number of training examples supplied (positive+negative) and $d$ is the dimensionality of each example.
+What are the overall training time complexities of the all-vs-all and the one-vs-all paradigms, respectively, and which training paradigm is most efficient, when using this new classifier?
+
+One vs. All: $O\left(d^2mk\right)$, \\
+All vs. All: $O\left(d^2\times\frac{2m}{k} \times \frac{k(k-1)}{2}\right) = O(d^2 m(k-1)) = O(d^2mk)$.\\
+Both schemes are equivalent in terms of time complexity.
+
+\item {\bf [10 points]} Suppose we have learnt an all-vs-all multi-class classifier and now want to proceed to predicting labels on unseen examples.
+
+We have learnt a simple linear classifier with a weight vector of dimensionality $d$ for each of the $ m(m-1)/2$ classes ($w_i^T x = 0$ is the simple linear classifier hyperplane for each  $i =[1, \cdots , m(m-1)/2] )$
+
+We have two evaluation strategies to choose from. For each example, we can:
+\begin{itemize}
+  \item \textbf{Counting}: Do all predictions then do a majority vote to decide class label
+  \item \textbf{Knockout}: Compare two classes at a time, if one loses, never consider it
+again. Repeat till only one class remains.
+\end{itemize}
+What are the overall evaluation time complexities per example for Counting and
+Knockout, respectively?
+
+Counting: $O(\frac{k(k-1)}{2}*d) = O(k^2 d)$, \\
+Knockout: $O\left(\left(k+\frac{k}{2} + ... + 1\right) \times d\right) = O(kd)$
+Knockout is more efficient.
+\end{enumerate}
+
+
+\end{document}

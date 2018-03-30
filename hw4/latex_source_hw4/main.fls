@@ -1,0 +1,175 @@
+PWD c:/Users/12502/OneDrive/Documents/CSM146/hw4/latex_source_hw4
+INPUT d:/Program Files/texlive/texmf.cnf
+INPUT d:/Program Files/texlive/texmf-dist/web2c/texmf.cnf
+INPUT d:/Program Files/texlive/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/12502/OneDrive/Documents/CSM146/hw4/latex_source_hw4/main.tex
+OUTPUT main.log
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/base/size11.clo
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/base/size11.clo
+INPUT d:/Program Files/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT course.sty
+INPUT course.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/url/url.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/url/url.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics/trig.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/tools/calc.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/tools/calc.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/comment/comment.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/comment/comment.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/tools/array.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/tools/array.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/tools/multicol.sty
+INPUT main.aux
+INPUT main.aux
+OUTPUT main.aux
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT main.out
+INPUT main.out
+INPUT main.out
+INPUT main.out
+OUTPUT main.pdf
+INPUT ./main.out
+INPUT ./main.out
+OUTPUT main.out
+INPUT d:/Program Files/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT d:/Program Files/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/base/omscmr.fd
+INPUT d:/Program Files/texlive/texmf-dist/tex/latex/base/omscmr.fd
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT d:/Program Files/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
+INPUT d:/Program Files/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT main.aux
+INPUT ./main.out
+INPUT ./main.out
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb
+INPUT d:/Program Files/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
